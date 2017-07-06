@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <img src="/static/Logo.png"></img>
     <router-view></router-view>
   </div>
 </template>
@@ -16,7 +17,18 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #f5f5f5;
+  font-size: 50px;
   margin-top: 60px;
+}
+img {
+  width: 35%;
+  margin-top: -16vh;
+}
+body {
+  background: #424242;
+}
+h2 {
+  margin-top: -6vh;
 }
 </style>
